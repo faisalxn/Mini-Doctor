@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Age"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_margin="5dp"
+                android:id="@+id/edAge"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Gender"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:id="@+id/spGender"
+                android:entries="@array/Gender"
+                android:layout_margin="5dp"
+
+
+                ></Spinner>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Height"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:id="@+id/edHeightFt"
+
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="ft"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="5dp"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:id="@+id/edHeightInch"
+
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="inch"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Weight"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp"
+                >
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/edWeightKg"
+                    android:layout_weight="1.99"
+
+                    />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="kg"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:layout_weight="0.01"
+
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have diabetes? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+
+
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxDiabetes"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you recently undergone any operation ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxOperation"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have allergy ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxAllergy"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you use glass or lens ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxGlassOrLens"
+                android:layout_marginBottom="10dp"
+
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have migrane ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxMigrane"
+                android:layout_marginBottom="10dp"
+
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have abnormal blood pressure ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxBloodPressure"
+                android:layout_marginBottom="10dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have heart disease ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxHeartDisease"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have asthma ? "
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                android:id="@+id/checkBoxAsthma"
+                android:layout_marginBottom="10dp"
+
+
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/bSuggestion"
+                android:onClick="onClickButton"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

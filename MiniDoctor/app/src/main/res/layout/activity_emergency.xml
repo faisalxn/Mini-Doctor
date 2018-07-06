@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Dhaka"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bDhaka"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Chittagong"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bChittagong"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Barisal"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bBarisal"
+
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Khulna"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bKhulna"
+
+
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Rajshahi"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bRajshahi"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Rangpur"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bRangpur"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Mymensingh"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bMymensingh"
+
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Sylhet"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="onClickButton"
+        android:id="@+id/bSylhet"
+
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mini Doctor</string>
+
+
+    <string-array name="Divisions">
+        <item>Dhaka </item>
+        <item>Chittagong </item>
+        <item>Barisal </item>
+        <item>Khulna </item>
+        <item>Rajshahi </item>
+        <item>Rangpur </item>
+        <item>Mymensingh </item>
+        <item>Sylhet </item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male </item>
+        <item>Female </item>
+
+    </string-array>
+
+
+</resources>

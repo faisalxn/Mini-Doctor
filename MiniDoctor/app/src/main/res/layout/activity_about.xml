@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="We face many health related problems in our everyday life but every time it is not possible to consult with a doctor. This problem can be solved if there is someone who can tell us what we should do in that situation . This app works like a doctor who is available whenever an user needs. This will not give any advanced level treatment for a complicated disease as it will not be safe. But this doctor can solve user's small problems and give them a temporary relief in a complicated situation."
+                android:textColor="@color/white"
+                android:textSize="30sp"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
